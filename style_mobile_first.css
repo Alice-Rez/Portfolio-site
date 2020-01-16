@@ -54,6 +54,7 @@ body {
   margin-bottom: 0;
   padding-top: 45vh;
   font-family: "Allura", cursive;
+  /* color: #1f267a; */
   color: hsl(235, 60%, 30%);
   font-size: 5rem;
 }
@@ -68,6 +69,12 @@ body {
   width: 45vw;
   opacity: 0.2;
   padding-left: 20vw;
+}
+
+.logo_landing {
+  margin-top: 25vh;
+  width: 40vw;
+  height: 40vw;
 }
 
 .second-page {
@@ -200,9 +207,36 @@ body {
 }
 
 .image-logo-JS {
-  /* height: 10vh; */
   height: 8vh;
-  padding-right: 3vw;
+  padding-right: 2vh;
+}
+
+.image-logo-GIMP {
+  height: 8vh;
+}
+
+.image-logo-photo {
+  height: 8vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.image-logo-Inkscape {
+  height: 8vh;
+}
+
+.image-logo-creativity {
+  height: 9vh;
+}
+
+.image-logo-Matlab {
+  height: 9vh;
+  margin-left: 1vh;
+  margin-right: 3vh;
+}
+
+.image-logo-solving {
+  height: 9vh;
 }
 
 .link-in-text {
@@ -221,7 +255,7 @@ body {
 
 .paragraph-portfolio-first {
   padding: 7vw;
-  padding-top: 13vh;
+  padding-top: 7vh;
   padding-bottom: 0;
   text-align: justify;
 }
@@ -233,12 +267,17 @@ body {
   text-align: justify;
 }
 
+.logo {
+  padding-top: 1vh;
+  width: 35vw;
+}
+
 p.portfolio-caption {
   margin: 0;
 }
 
 .portfolio-caption {
-  padding-top: 3vh;
+  padding-top: 6vh;
   padding-bottom: 3vh;
 }
 
@@ -327,11 +366,14 @@ p.paragraph-contact {
 }
 
 .profil-image-desktop {
-  width: 20%;
+  width: 19%;
 }
 
 @media screen and (max-width: 800px) {
   .profil-image-desktop {
+    display: none;
+  }
+  .logo_landing {
     display: none;
   }
 }
@@ -347,7 +389,7 @@ p.paragraph-contact {
   }
 
   .headline1 {
-    padding-left: 3vw;
+    padding-left: 2vw;
     padding-top: 55vh;
     font-size: 12rem;
   }
@@ -374,7 +416,10 @@ p.paragraph-contact {
   }
   .About-me-item {
     flex: 1;
-    height: 70vh;
+    height: auto;
+    min-height: 75vh;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
   }
   .profil-image-mobil {
     display: none;
@@ -384,7 +429,7 @@ p.paragraph-contact {
     height: 100vh;
   }
   .second-page {
-    height: 30vh;
+    height: 25vh;
     margin: 0;
   }
 
@@ -396,6 +441,47 @@ p.paragraph-contact {
     font-size: 3rem;
     padding-top: 2vh;
     padding-bottom: 2vh;
+  }
+
+  .image-logo-HTML {
+    height: 7vh;
+  }
+
+  .image-logo-CSS {
+    height: 6vh;
+  }
+
+  .image-logo-JS {
+    height: 5vh;
+    padding-right: 2vh;
+  }
+
+  .image-logo-GIMP {
+    height: 6vh;
+  }
+
+  .image-logo-photo {
+    height: 6vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+
+  .image-logo-Inkscape {
+    height: 6vh;
+  }
+
+  .image-logo-creativity {
+    height: 7vh;
+  }
+
+  .image-logo-Matlab {
+    height: 7vh;
+    margin-left: 1vh;
+    margin-right: 3vh;
+  }
+
+  .image-logo-solving {
+    height: 7vh;
   }
 
   .Portfolio-page {
@@ -410,6 +496,15 @@ p.paragraph-contact {
     display: none;
   }
 
+  .logo {
+    display: none;
+  }
+
+  .portfolio-caption {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
   .image-portfolio-web {
     max-width: 50%;
     padding-left: 0vw;
@@ -417,7 +512,7 @@ p.paragraph-contact {
   }
 
   .footer {
-    height: 20vh;
+    height: 19vh;
     background-color: black;
     justify-content: center;
   }
@@ -439,8 +534,8 @@ p.paragraph-contact {
   .icons-contact {
     height: 3vw;
     margin-top: 0;
-    animation-duration: 2s;
-    animation-delay: 4s;
+    animation-duration: 6s;
+    animation-delay: 6s;
     animation-iteration-count: 8;
   }
 
