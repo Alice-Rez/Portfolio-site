@@ -1,4 +1,4 @@
-# Portfolio site
+# Portfolio site - first attempt
 
 Final project of the DCI orientation course - web development part. Created after cca 7 days of learning HTML and CSS (basic thinks + flex).
 
